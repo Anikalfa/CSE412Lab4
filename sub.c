@@ -1,22 +1,31 @@
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h>
 
-void main(){
+int main()
 
-int one, two, sub;
+{
 
-printf("Enter first number - ");
+int x,y,z, result;
 
-scanf("%d",&one);
+printf(“Enter the 1st number: “);
 
-printf("Enter second number - ");
+scanf(“%d”,&x);
 
-scanf("%d",&two);
+printf(“Enter the 2nd number: “);
 
-sub = one - two;
+scanf(“%d”,&y);
 
-printf("The subtraction of numbers %d and %d is %d",one,two,sub);
+printf(“Enter the 3th number: “);
+
+scanf(“%d”,&z);
+
+result = x – y – z;
+
+printf(“result=%d”,result);
+
+retrun 0;
 
 getch();
 
 }
+
+
