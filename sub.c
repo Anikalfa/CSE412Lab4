@@ -22,7 +22,6 @@ result = x – y – z;
 
 printf(“result=%d”,result);
 
-retrun 0;
 
 getch();
 
